@@ -6,3 +6,26 @@ ci sono meglio è per la SEO e per l'indicizzazione.
     META (charset)
 
     Favincon generetor (iconcina nella tab del brawser), con sto sito ci dà in auto i tag per mettere l'icon nostra. 
+
+BODY
+    Di tutti i titolo posso usarli all'infinito a parte h1 che si usa una volta sola.
+    HR separatore (linea orizzontale)
+    BR a capo (non usarlo)
+    P paragrafo
+    HREF link URL 
+        target = _black; invece di rimpiazzare la pagina "apri in altra finestra". In questo modo però l'utente non è al sicuro ->
+            REL  = "noopener noreferrer" così siamo al sicuro da eventuali modifiche. 
+
+    Img: png vs swg 
+
+    Liste:
+        Non ordinata UL (unordered list )
+                             LI (list item)
+
+        Ordinata OL (ordered list) - Type = "" modi diversi di puntare la lista. -Reversed fa al contrario.
+                            LI 
+
+    Tabelle:
+
+        Table: 
+    
