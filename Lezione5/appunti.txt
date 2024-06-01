@@ -1,0 +1,8 @@
+L'HEAD è l'intestazione, tutto ciò che si mette qui, non si vede direttamente nella pagina ma in altri modi, per esempio più informazioni utili 
+ci sono meglio è per la SEO e per l'indicizzazione.
+    META (description)serve a fare una descrizione del sito 
+    META (keyWords)
+    META (author)
+    META (charset)
+
+    Favincon generetor (iconcina nella tab del brawser), con sto sito ci dà in auto i tag per mettere l'icon nostra. 
