@@ -24,8 +24,62 @@ BODY
 
         Ordinata OL (ordered list) - Type = "" modi diversi di puntare la lista. -Reversed fa al contrario.
                             LI 
+    form 
+        attributi: 
+            action = quando sono sul sito e compilo una form, l'action fa riferimento a "dove verranno mandati i file"
+            method = metodi su come http su come interfacciarsi con il DB
 
-    Tabelle:
+        2 tipi di bottoni 
+            summit = va sempre e solo nella form, "salva dati scritti nel form"
+            button = bottone generico fuori dalla form, da programmare con onclick 
 
-        Table: 
-    
+    2 contenitori 
+        div = display block, se ne metti 2 vicini vanno a capo da solo
+        span = display inline, se ne metti 2 vicini non va a capo ma continua la linea
+
+**CSS** cascade style sheet
+
+<meta name="viewport" = permette di riconoscere in modo corretto la grandezza della nostra pagina su tutti i tipi di dispositivi.
+
+Come si collega il css all'html?
+    in linea: <h1 style="color: red> </h1>     HA PRORITA' SUGLI ALTRI METODI
+    interno: nel tag head metto tag style e faccio tutto il css
+    esterno: con il link 
+
+
+identificare i collegamenti css 
+
+    id = si usa su tag unici nella struttura come header e footer 
+    class =  si usa su quelli che si ripetono 
+
+Color: posso usare l'hex quindi tipo ff0000
+       oppure posso usare rgb, 3 valori
+       oppure rgba, 4 valori perchè puoi settare l'opacità
+
+
+di base ogni brawser ha un margine di default, per toglierlo setto margin di body a 0
+
+quando uso le altezze in percentuale si intende la percentuale del contenitore in cui sono.
+Dato che il body e l'html non hanno un altezza predefinita devo dirgliela icon
+posso usare anche l'unità di misura viewport [vh].
+
+
+Vari modi di richiamare 
+
+
+#first-p{
+
+    color: red;
+}
+
+.first-p{
+
+    color: red;
+
+}
+
+body {
+
+    margin: 0px;
+}
+

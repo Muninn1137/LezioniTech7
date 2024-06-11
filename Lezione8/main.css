@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box; /*magic function */
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid black;
+}
+
+#main {
+
+    position: relative;
+    width: 100%;
+    height: 80%;
+    
+}
+
+#footer {
+    
+    width: 100%;
+    height: 10%;
+    border-top: 1px solid black;
+   
+}
+
+.card{
+
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 30px;
+    display: inline-block;
+    
+}
+
+.button-chat{
+    
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
