@@ -1,6 +1,6 @@
 article{
-    width: 601;
-    height: 228;
+    width: 601px;
+    height: 228px;
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -35,5 +35,15 @@ article{
 
     width: 539;
     height: 52;
+}
+
+.p1{
+
+    opacity: 60%;
+}
+
+.p2{
+
+    opacity: 60%;
 }
 

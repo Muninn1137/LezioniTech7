@@ -63,23 +63,7 @@ quando uso le altezze in percentuale si intende la percentuale del contenitore i
 Dato che il body e l'html non hanno un altezza predefinita devo dirgliela icon
 posso usare anche l'unità di misura viewport [vh].
 
+POSITION degli elementi
 
-Vari modi di richiamare 
 
-
-#first-p{
-
-    color: red;
-}
-
-.first-p{
-
-    color: red;
-
-}
-
-body {
-
-    margin: 0px;
-}
 
