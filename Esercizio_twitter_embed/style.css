@@ -1,22 +1,48 @@
-article{
-    width: 601px;
-    height: 228px;
-    border: 1px solid black;
-    border-radius: 10px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    margin: 0;
 }
 
+.article {
+    background-color: #dfe6ec;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
-.facciona{
+}
 
+.inizio {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.facciona {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
 
-.logoTwitter{
-
-    width: 30px;
-    height: 30px;
+.tweet-author {
+    margin-left: 15px;
+    display: inline-block;
 }
+
+.fine {
+    display: flex;
+    padding-top: 10px;
+    font-size: 0.9em;
+    color: #8899A6;
+} 
 
 .cuoricino{
 
@@ -24,26 +50,12 @@ article{
     height: 24px;
 }
 
+.logoTwitter{
+    width: 30px;
+    height: 30px;
+}
 
 .colorato{
 
-    color: #1DA1F2;
-    
+    color: rgb(34, 19, 243);
 }
-
-.mezzo{
-
-    width: 539;
-    height: 52;
-}
-
-.p1{
-
-    opacity: 60%;
-}
-
-.p2{
-
-    opacity: 60%;
-}
-
