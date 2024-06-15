@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+}
+
+.article{
+
+    width: 400px;
+    height: 198px;
+    border-radius: 20px;
+    position: absolute;
+    top: calc(50% - (198px / 2));
+    left: calc(50% - (400px / 2));
+}
+
+.sfondo{
+    width: 400px;
+    height: 198px;
+    border-radius: 20px;
+}
+
+.footer{
+    position: absolute;
+    width: 400px;;
+    height: 48px;
+    border-radius: 0px 0px 20px 20px ;
+    bottom: 0;
+    background:#1D0E25;
+}
+
+.ability{
+    position: absolute;
+    width: 352px;
+    height: 48px;
+    top: 120px;
+    left: 50px;
+    z-index: 10;
+}
+
+.ability1{
+    width: 48px;
+    height: 48px;
+    border: 8px solid #1D0E25; 
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
+.ability2{
+    width: 48px;
+    height: 48px;
+    border: 8px solid #1D0E25; 
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+.ability3{
+    width: 48px;
+    height: 48px;
+    border: 8px solid #1D0E25; 
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 120px;
+}
+.ability4{
+    width: 48px;
+    height: 48px;
+    border: 8px solid #1D0E25; 
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    left: 180px;
+}
+.ability5{
+    width: 48px;
+    height: 48px;
+    border: 8px solid #1D0E25; 
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 240px;
+}
+
+
+

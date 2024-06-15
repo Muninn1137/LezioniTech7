@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+}
+
+.article{
+    width: 430px;
+    height: 150px;
+    background: #16161D;
+    border-radius: 16px;
+    position: absolute;
+    top: calc(50% - (150px / 2));
+    left: calc(50% - (430px / 2));
+}
+
+.ryzeImg{
+
+    border-radius: 16px;
+}
+
+.content{
+    width: 232px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 25px;   
+    border-radius: 16px;
+}
+
+.champion{
+    border-radius: 4px;
+    background: #17171C;
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    padding: 2px 12px 2px 12px;
+}
+
+.imgText{
+    width: 150px;
+    height: 150px ;
+    position: relative;
+}
+
+.text{
+    color:  #7FB4BB;
+}
+
+
+.info{
+
+    position: relative;
+}
+
+.imgs{
+
+    position: relative;
+}
+
+.h2{
+    color: #7FB4BB;
+    position: absolute;
+    top: 10px;  
+}
+
+.type{
+
+    color:  #F1E1E2;
+    position: absolute;
+    top: 40px;
+}
+
+.icon1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: 90px;
+}
+
+.icon2{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: 90px;
+    left: 45px;
+}
+
+.icon3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
+
+.icon4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: 90px;
+    left: 135px;
+}
+
+.icon5 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: 90px;
+    left: 180px;
+}
+
+
+
