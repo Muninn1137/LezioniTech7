@@ -88,5 +88,27 @@ body{
     left: 240px;
 }
 
+.infoBox{
+
+    width: 105px;
+    height: 58px;
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    background: #1D0E25;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.h1{
+
+    color: #BACFFF;
+}
+
+.p{
+
+    color: #F6F1DC;
+}
+
 
 
