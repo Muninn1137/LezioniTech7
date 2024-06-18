@@ -66,4 +66,12 @@ posso usare anche l'unità di misura viewport [vh].
 POSITION degli elementi
 
 
+FLEX
+
+Aligned-items per le colonne x
+Justify-content per le righe y
+flex-direction, prendo gli elementi, li tratto come un array e inverto i posti.
+order, "", cambio l'indice degli elementi 
+
+
 
