@@ -5,7 +5,7 @@
 
 body{
     width: Fixed (1,920px)px;
-    height: Hug (2,329.71px)px;
+    height: 3400px;
     background: var(--Dark-Mode-Dark-Gunmetal, #201F2E);
 }
 
@@ -27,8 +27,8 @@ header{
 
         .logo{
 
-            height: 48px;
-            width: 48px;
+            height: 60px;
+            width: 60px;
         }
 
         .h2Header{
@@ -441,5 +441,59 @@ main{
                 margin-left: 15px;
                 margin-bottom: 20px;
             }
-            
+    
+    footer{
+        width: 78%;
+        height: 4%;
+        background: white;
+        margin-top: 950px;
+        margin-left: 200px;
+        border-radius: 20px 20px 0px 0px;
+        display:flex;
+        position: relative;
+    }
+    .logoFooter{
+        height: 80px;
+        width: 80px;
+        margin-left: 20px;
+    }
+    .p1Footer{
+        font-family: Impact;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 39.03px;
+        color: var(--Dark-Mode-Dark-Gunmetal, #201F2E);
+        position: absolute;
+        top: 20px;
+        left: 100px;
+    }
+    
+    .socialLogos{
+        position: absolute;
+        top: 70px;
+        left: 45px;
+    }
 
+    .p1FooterDx{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.36px;
+        text-align: right;
+        color: var(--Dark-Mode-Dark-Gunmetal, #201F2E);
+        position: absolute;
+        top: 50px;
+        right: 45px;
+
+    }
+    .p2FooterDx{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.36px;
+        text-align: right;
+        color: var(--Dark-Mode-Dark-Gunmetal, #201F2E);
+        position: absolute;
+        top: 70px;
+        right: 45px;
+    }
