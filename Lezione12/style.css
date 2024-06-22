@@ -38,6 +38,11 @@ header{
             position: absolute;
             top: 12px;
             left: 60px;
+            font-family: Impact;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 39.03px;
+            text-align: center;
         }
 
     .navbarConteiner{
@@ -45,7 +50,7 @@ header{
         height: 47px;
         display: flex;
         justify-content: space-between;
-        margin-top: 15px;
+        margin-top: 20px;
         margin-left: 230px;
         margin-right: 230px;
         gap: 24px;
@@ -59,22 +64,46 @@ header{
             background: rgb(248, 221, 221);
             color: black;
             border-radius: 8px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 23.44px;
+            text-align: center;
+
         }
 
         .navElement2{
             display: flex;
             justify-content: space-around;
             gap: 10px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 23.44px;
+            text-align: center;
+
         }
         .navElement3{
             display: flex;
             justify-content: space-around;
             gap: 10px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 23.44px;
+            text-align: center;
+
         }
         .navElement4{
             display: flex;
             justify-content: space-around;
             gap: 10px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 23.44px;
+            text-align: center;
+
         }
 
     .accountConteiner{
@@ -82,7 +111,7 @@ header{
         height: 44px;
         display: flex;
         justify-content: flex-end;
-        margin-top: 5px;
+        margin-top: 15px;
         margin-right: 20px
     }
 
