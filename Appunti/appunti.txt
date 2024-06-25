@@ -73,5 +73,72 @@ Justify-content per le righe y
 flex-direction, prendo gli elementi, li tratto come un array e inverto i posti.
 order, "", cambio l'indice degli elementi 
 
+PSEDUCLASSI
+
+sintassi --> class: pseudoclas:
+
+hover = quello che succede quando il cursore va sull'elemento 
+before = mettere un elemento prima (default inline)
+alfter = ""
+
+ANIMAZIONI
+
+transition: proprietà durata funzione-tempo ritardo 
+ex trasitiion all 0.3s ease-in-out;
+
+keyframe: definisce le fasi delle transition
+20% { transform : traslate tot}
+50% { transform : translate tot}
+
+transform: 
+    rotate: angle 
+    scale: size 
+    translate: position xy
+
+object-fit = come ridimensionare un qualcosa dentro ad un div 
+    fill = riempie il contenitore
+    contain = addatta mantentendo il rapporto d'aspetto
+    cover = riempie mantentendo il rapporto d'aspetto
+    none =
+    scale-down = scala il più piccolo 
+
+z-index
+
+overflow = specifica come gestire il contenuto che eccede le dimensioni di un elemento
+
+VARIABILI CSS
+
+--primary-color: #ffffff
+
+color: var(--primary-color)
+
+GRID
+
+setto il display come se fosse una specie di excel 
+
+proprietà:
+    grid-temple-column = come si comportano le colonne
+    ex grid-temple-column = 100px 200px 100px 
+       grid-temple-column = 1fr 2fr 1fr
+       grid-temple-column = repeat (3, 1fr)
+
+       grid-temple-row = ""
+
+    grid-gap 
+    column-gap
+    row-gap
+
+    grid-column-start = 1
+    grid-column-start = 3
+
+    grid-row-start = 1
+    grid-row-start = 3
+
+    grid-area = header //ci sono altre funzioni da rivedere con samir 
+
+    
+
+
+
 
 
