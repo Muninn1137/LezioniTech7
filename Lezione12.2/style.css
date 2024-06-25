@@ -87,4 +87,6 @@ footer{
     color: black;
     gap: 10px;
 }
-
+.pNavbar{
+    margin-left: 10px;
+}
