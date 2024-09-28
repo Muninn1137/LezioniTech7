@@ -14,7 +14,7 @@ body {
     background-color: black;
     border-radius: 50%;
     position: absolute; /* Necessario per poter usare left e top */
-    left: 10px;  /* Posizione iniziale */
-    top: 10px;   /* Posizione iniziale */
+    left: 0px;  /* Posizione iniziale */
+    top: 0px;   /* Posizione iniziale */
 }
 
