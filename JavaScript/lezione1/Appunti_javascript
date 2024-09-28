@@ -1,0 +1,63 @@
+Javascript è un linguaggio di programmazione con dei costrutti all'interno come gl'altri linguaggi.
+
+Come collegare Javascript sul mio progetto, come css posso metterlo interno nel tag suo. <script> </script> (non farlo)
+Si può fare anche nel body ma all'esterno: <script src"index.js"></script> (fallo)
+Non si mette nell'head assieme al css perchè essendo a cascata il programma e noi volgiamo che js legga tutto si deve mettere all'ultimo posto.
+I punti e virgola non sono obbligatori.
+
+VARIABILI: 
+let e Const 
+let number1 = 2;
+const pi = 3.14;
+
+nei siti al 90% si usa const
+
+ce ne freghiamo di int double ecc tanto la memoria la gestisce lui.
+
+ci sono anche i bool, tra l'altro 0 e false indicano la stessa cosa e possono essere mal interpretati quindi nelle operazioni di confronto vado 
+a mettere === invece di = e basta.
+
+number1 === number2
+
+ARRAY:
+const listOfItems = ["intem1", "intem2", "item3"] 
+listOfItems.push (newItem) per aggiungere un elemento alla fine
+DEBUG:
+
+invece di usare "alert" usiamo "console.log"
+
+OGGETTI:
++
+const person = {
+    name: "Ciccio",
+    surname: "Paguro",
+    hobby: "fortnite",
+}
+
+
+OPERAZIONI ARTIMETICHE:
+
+console.log (numberOne + numbertwo)
+console.log (numberOne - numbertwo)
+console.log (numberOne * numbertwo)
+console.log (numberOne / numbertwo)
+
+COSTRUTTI:
+
+If (numberOne === numbertwo){
+    console.log ("E' uguale")
+}
+else if{
+    console.log ("Non è uguale ")
+}
+else {
+    altra roba bla bla 
+}
+
+PROMPT
+
+const questionOne = prompt ("Quanti anni hai?")
+
+CICLI:
+
+for (let i=0; i < 10; i++) 

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: blueviolet;
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menuIcon{
+    width: 40px;
+    height: 40px;
+}
+
+button{
+    background: none;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+#sideBar{
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: aquamarine;
+    transition: left 300ms ease-in-out;
+}
+
+#sideBar.open{
+    left: 0px;
+}
+

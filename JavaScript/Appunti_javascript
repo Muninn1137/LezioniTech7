@@ -1,0 +1,20 @@
+Variabili:
+let, const, boolean, oggetti.
+
+Construtti:
+
+if, for, while, do-while.
+Usage of ===
+
+Array:
+
+equal to normal java.
+array.push(element)
+
+Come prendiamo un elemento in js per html:
+Se voglio prendere in h1 gli metto id "title"
+
+const elementH1Id = document.getElementById(Title)
+const elementH1Class = document.getElementByClassName(Title)
+
+Const elementH1 = document.querySelector("#Titile")
