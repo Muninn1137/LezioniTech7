@@ -1,0 +1,9 @@
+Il server è l'entità che gestisce le connessioni e le comunicazioni tra i vari client.
+
+E' anche il mezzo tra sito e database.
+Ovviamente non avendo la macchina fisica lo facciamo in locale.
+
+node.js è un ambiente di runtime per javascript che ci permette di eseguire codice javascript lato server.
+
+npm ti permette di creare un sito reale che utilizza al suo interno codice di altri programmatori, ossia delle librerie = dependency.
+
