@@ -7,3 +7,6 @@ node.js è un ambiente di runtime per javascript che ci permette di eseguire cod
 
 npm ti permette di creare un sito reale che utilizza al suo interno codice di altri programmatori, ossia delle librerie = dependency.
 
+CREARE UN SERVER 
+npm init
+npm install express
