@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.listItem{
+    padding: 10px;
+    list-style-type: none;
+}
